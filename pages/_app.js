@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
       appId={process.env.NEXT_PUBLIC_ID_APP}
       serverUrl={process.env.NEXT_PUBLIC_SERVER_URL}
     >
-      <Component {...pageProps} />)
+      <Component {...pageProps} />
     </MoralisProvider>
   );
 }
